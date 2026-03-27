@@ -1,0 +1,121 @@
+[
+{
+"name":"Animal Science 4-H Club",
+"type":"Animal Science",
+"grades":"K-13",
+"description":"Learn about animal care, nutrition, and behavior through hands-on activities and trips to farms and animal facilities.",
+"meeting":"1st Friday, 7:30-9 PM – Agriculture Building, Freehold"
+},
+{
+"name":"Baird Homestead 4-H Club",
+"type":"Livestock / Community",
+"grades":"K-13",
+"description":"Members help maintain the historic homestead, care for animals, and host events like the annual High Tea.",
+"meeting":"1st Sunday, 2-4 PM – Baird Homestead, Millstone"
+},
+{
+"name":"Curry Combs 4-H Club",
+"type":"Horse Club",
+"grades":"1-13",
+"description":"One of the oldest horse clubs focusing on English riding, horse science, and competitions.",
+"meeting":"2nd Thursday, 7-8:30 PM – Agriculture Building"
+},
+{
+"name":"Hearts and Horseshoes",
+"type":"Horse Club",
+"grades":"K-13",
+"description":"Beginner and intermediate riders learn about horses, anatomy, tack, and riding styles through farm visits.",
+"meeting":"1st Saturday – Allentown"
+},
+{
+"name":"Monmouth Livestock",
+"type":"Livestock Club",
+"grades":"K-13",
+"description":"Members raise livestock, build friendships, and prepare animals to show at the Monmouth County Fair.",
+"meeting":"2nd Monday, 7-8:30 PM – Agriculture Building"
+},
+{
+"name":"Raging Reptiles",
+"type":"Animal Science",
+"grades":"K-13",
+"description":"Explore reptiles and their environments while learning proper care and conservation.",
+"meeting":"3rd Friday – Agriculture Building"
+},
+{
+"name":"Stars and Strides",
+"type":"Horse Club",
+"grades":"K-13",
+"description":"Horse enthusiasts practice riding skills, obstacle courses, horse care, and crafts.",
+"meeting":"1st Monday & 3rd Saturday – Millstone"
+},
+{
+"name":"Tails and Trails",
+"type":"Small Animal Club",
+"grades":"K-13",
+"description":"Members care for rabbits, chickens, and other small animals while promoting rescue and education.",
+"meeting":"2nd Friday – Agriculture Building"
+},
+{
+"name":"Kindness Club",
+"type":"Citizenship",
+"grades":"K-13",
+"description":"Focuses on community service such as beach cleanups, coat drives, and helping local organizations.",
+"meeting":"Middletown"
+},
+{
+"name":"Wildroots Wilderness Survival",
+"type":"Outdoor Skills",
+"grades":"K-13",
+"description":"Teaches survival skills, leadership, and environmental awareness through outdoor challenges.",
+"meeting":"First weekend monthly – various parks"
+},
+{
+"name":"Teen Council",
+"type":"Leadership",
+"grades":"8-13",
+"description":"Teen leaders organize activities and service projects for the Monmouth County 4-H community.",
+"meeting":"2nd Thursday – Agriculture Building"
+},
+{
+"name":"Globetasters Cooking Club",
+"type":"Healthy Living",
+"grades":"4-13",
+"description":"Virtual cooking club exploring international cuisine and cultures through hands-on recipes.",
+"meeting":"Virtual – mid-month Monday"
+},
+{
+"name":"Wildlings",
+"type":"Environmental",
+"grades":"K-13",
+"description":"Environmental education club focused on nature, health, and outdoor exploration.",
+"meeting":"Winter Run & Agriculture Building"
+},
+{
+"name":"Monmouth Blasters",
+"type":"Rocketry",
+"grades":"K-13",
+"description":"Members design and launch model rockets while learning engineering and aviation.",
+"meeting":"2nd Tuesday – Agriculture Building"
+},
+{
+"name":"Dungeons and Dragons Club",
+"type":"STEM / Strategy",
+"grades":"6-13",
+"description":"Role-playing adventures that build teamwork, creativity, and strategic thinking.",
+"meeting":"4th Friday – Agriculture Building"
+},
+{
+"name":"It's Awl Good Builders",
+"type":"Engineering",
+"grades":"K-13",
+"description":"Woodworking and building projects that support 4-H programs and community education.",
+"meeting":"Varies"
+},
+{
+"name":"Shooting Stars",
+"type":"STEM / Marksmanship",
+"grades":"4-13",
+"description":"Members learn rifle safety, discipline, and shooting techniques with trained instructors.",
+"meeting":"Virtual & range sessions in Freehold"
+}
+]

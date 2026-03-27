@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monmouth County 4-H</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="topbar">
+<button onclick="scrollToTop()">Skip to Content</button>
+<div>
+Text Size:
+<button onclick="changeText(1)">A+</button>
+<button onclick="changeText(-1)">A-</button>
+</div>
+</div>
+
+<div class="logo-area">
+<h1>🍀 Monmouth County 4-H</h1>
+</div>
+
+<nav>
+<a href="#" onclick="scrollToTop()">Home</a>
+<a href="#" onclick="scrollToSection('about')">About</a>
+<a href="#" onclick="scrollToSection('join')">Programs</a>
+<a href="#" onclick="scrollToSection('clubs')">Clubs</a>
+<a href="#" onclick="scrollToSection('events')">Events</a>
+<a href="#" onclick="scrollToSection('join')">Join</a>
+<a href="#" onclick="scrollToSection('contact')">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Learn. Grow. Lead.</h2>
+<p>Empowering Youth in Monmouth County</p>
+<button class="primary" onclick="scrollToSection('join')">Join 4-H</button>
+<button class="secondary" onclick="scrollToSection('clubs')">Find a Club</button>
+</section>
+
+<section id="about" class="about">
+<h2>What is 4-H?</h2>
+<p>4-H is a youth program focused on leadership, hands-on learning, and community service.</p>
+
+<ul>
+<li>✔ Hands-On Learning</li>
+<li>✔ Leadership Development</li>
+<li>✔ Community Service</li>
+</ul>
+</section>
+
+<section id="join" class="join-section">
+<h2>How to Join Monmouth 4-H</h2>
+<p>To Join Monmouth 4-H as a Cloverbud, youth member or adult volunteer, please sign up on <a href="https://www.zsuite.org" target="_blank" rel="noopener">ZSuite</a>. Contact <a href="mailto:christine.raza@co.monmouth.nj.us">christine.raza@co.monmouth.nj.us</a> for any assistance you may need with enrolling.</p>
+
+<div class="signup-links">
+<h3>Sign Up Instructions</h3>
+<ul>
+<li><a href="https://shorturl.at/Qd7h7" target="_blank" rel="noopener">Sign up instructions for new members</a></li>
+<li><a href="https://shorturl.at/JJKrK" target="_blank" rel="noopener">Sign up instructions for new volunteer leaders</a></li>
+<li><a href="https://shorturl.at/MswYJ" target="_blank" rel="noopener">Reenrollment instructions</a></li>
+</ul>
+</div>
+</section>
+
+<section id="clubs" class="clubs">
+
+<h2>4-H Clubs</h2>
+
+<div id="clubContainer" class="club-grid"></div>
+
+</section>
+
+<section id="events" class="events-section">
+<h2>Upcoming Events</h2>
+<div class="events-grid">
+<div class="event-card">
+<h3>Monmouth County Fair</h3>
+<p class="event-date">July 23-27, 2025</p>
+<p>Join us for the annual Monmouth County Fair featuring 4-H exhibits, competitions, and fun for the whole family!</p>
+</div>
+<div class="event-card">
+<h3>Animal Shows & Clinics</h3>
+<p class="event-date">Throughout the Year</p>
+<ul>
+<li>Livestock Expo (Spring)</li>
+<li>Horse Shows 101 (Spring)</li>
+<li>Model Horse Shows (Fall)</li>
+</ul>
+<p>Learn about animal care, compete in shows, and develop your skills with our expert-led clinics.</p>
+</div>
+<div class="event-card">
+<h3>Rutgers Day</h3>
+<p class="event-date">April 2025</p>
+<p>Celebrate Rutgers University and learn about opportunities in agriculture, science, and community service.</p>
+</div>
+</div>
+</section>
+
+<section id="contact" class="contact-section">
+<h2>Contact Us</h2>
+<div class="contact-info">
+<div class="contact-card">
+<h3>Main Office</h3>
+<p>Monmouth County 4-H Program</p>
+<p>Agriculture Building<br>
+Freehold, NJ</p>
+<p><strong>Email:</strong> <a href="mailto:christine.raza@co.monmouth.nj.us">christine.raza@co.monmouth.nj.us</a></p>
+<p><strong>Phone:</strong> (732) 431-7460</p>
+</div>
+<div class="contact-card">
+<h3>Get Involved</h3>
+<p>Ready to join 4-H?</p>
+<p>Contact our enrollment coordinator for assistance with signing up on ZSuite or any questions about membership.</p>
+<button class="primary" onclick="scrollToSection('join')">Join 4-H Today</button>
+</div>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Monmouth County 4-H</p>
+</footer>
+
+<!-- Back to Top Button -->
+<button id="backToTop" onclick="scrollToTop()" aria-label="Back to Top">
+    <div class="clover">
+        <div class="leaf leaf1"></div>
+        <div class="leaf leaf2"></div>
+        <div class="leaf leaf3"></div>
+        <div class="leaf leaf4"></div>
+        <div class="stem"></div>
+    </div>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
