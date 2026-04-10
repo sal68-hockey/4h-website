@@ -9,13 +9,6 @@ function scrollToSection(sectionId) {
     }
 }
 
-let size = 16
-
-function changeText(amount){
-size += amount
-document.body.style.fontSize = size + "px"
-}
-
 // Back to Top Button Visibility
 window.addEventListener('scroll', function() {
     const backToTopButton = document.getElementById('backToTop');
