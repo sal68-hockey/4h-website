@@ -1,128 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Monmouth County 4-H</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monmouth County 4-H</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="brand">
+        <span class="clover-icon">🍀</span>
+        <div>
+          <p class="eyebrow">Monmouth County</p>
+          <h1>4-H Youth Development</h1>
+        </div>
+        <span class="clover-icon">🍀</span>
+      </div>
+      <button type="button" class="toggle-nav" aria-expanded="false">Menu <span aria-hidden="true">☰</span></button>
+      <nav class="flex-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#" onclick="scrollToTop()">Home</a></li>
+          <li><a href="#" onclick="scrollToSection('about')">About</a></li>
+          <li><a href="#" onclick="scrollToSection('join')">Programs</a></li>
+          <li><a href="#" onclick="scrollToSection('clubs')">Clubs</a></li>
+          <li><a href="#" onclick="scrollToSection('events')">Events</a></li>
+          <li><a href="#" onclick="scrollToSection('contact')">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<header>
-<div class="logo-area">
-<div class="logo-content">
-<span class="clover-icon">🍀</span>
-<h1>Monmouth County 4-H</h1>
-<span class="clover-icon">🍀</span>
-</div>
-<p class="tagline">Head • Heart • Hands • Health</p>
-</div>
+  <main>
+    <section class="hero-slider">
+      <div class="container">
+        <ul class="slider">
+          <li class="slider-item active">
+            <div class="slide-grid">
+              <div class="image-holder">
+                <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80" alt="4-H youth collaborating">
+              </div>
+              <div class="slide-copy">
+                <p class="eyebrow">Grow with 4-H</p>
+                <h2 class="title">Hands-on learning for every young leader</h2>
+                <p class="description">Monmouth County 4-H supports youth through clubs, farms, STEM, and service learning. Build confidence, creativity, and a connection to community.</p>
+                <div class="hero-actions">
+                  <a href="#join" class="button primary">Join 4-H</a>
+                  <a href="#clubs" class="button secondary">Explore Clubs</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="slider-item">
+            <div class="slide-grid">
+              <div class="image-holder">
+                <img src="https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=1200&q=80" alt="Youth volunteering in community service">
+              </div>
+              <div class="slide-copy">
+                <p class="eyebrow">Lead with Purpose</p>
+                <h2 class="title">Leadership opportunities through service and teamwork</h2>
+                <p class="description">Discover projects, volunteer events, and camps that help youth lead with heart, hands, health, and head.</p>
+                <div class="hero-actions">
+                  <a href="#events" class="button primary">See Events</a>
+                  <a href="#about" class="button secondary">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="slider-item">
+            <div class="slide-grid">
+              <div class="image-holder">
+                <img src="https://images.unsplash.com/photo-1510070009289-b5bc34383727?auto=format&fit=crop&w=1200&q=80" alt="Youth participating in agricultural activities">
+              </div>
+              <div class="slide-copy">
+                <p class="eyebrow">Explore New Skills</p>
+                <h2 class="title">From agriculture to arts, find a place to grow</h2>
+                <p class="description">4-H gives youth a safe place to try new ideas, develop skills, and create lasting memories in Monmouth County.</p>
+                <div class="hero-actions">
+                  <a href="#clubs" class="button primary">Find a Club</a>
+                  <a href="#join" class="button secondary">Get Started</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
 
-<nav>
-<a href="#" onclick="scrollToTop()">Home</a>
-<a href="#" onclick="scrollToSection('about')">About</a>
-<a href="#" onclick="scrollToSection('join')">Programs</a>
-<a href="#" onclick="scrollToSection('clubs')">Clubs</a>
-<a href="#" onclick="scrollToSection('events')">Events</a>
-<a href="#" onclick="scrollToSection('join')">Join</a>
-<a href="#" onclick="scrollToSection('contact')">Contact</a>
-</nav>
-</header>
+        <div class="controls" aria-label="Slider controls">
+          <button class="previous" aria-label="Previous slide"><span class="icon arrow-left" aria-hidden="true"></span></button>
+          <button class="next" aria-label="Next slide"><span class="icon arrow-right" aria-hidden="true"></span></button>
+        </div>
+      </div>
+    </section>
 
-<section class="hero">
-<h2>Learn. Grow. Lead.</h2>
-<p>Empowering Youth in Monmouth County</p>
-<button class="primary" onclick="scrollToSection('join')">Join 4-H</button>
-<button class="secondary" onclick="scrollToSection('clubs')">Find a Club</button>
-</section>
+    <section id="about" class="about">
+      <div class="container section-grid">
+        <div>
+          <h2 class="section-title">🌱 What is 4-H?</h2>
+          <p>4-H is a youth program focused on leadership, hands-on learning, and community service. It empowers young people to grow through positive experiences and supportive mentorship.</p>
+        </div>
+        <div>
+          <ul>
+            <li>✋ Hands-On Learning</li>
+            <li>💪 Leadership Development</li>
+            <li>🤝 Community Service</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-<section id="about" class="about">
-<h2>🌱 What is 4-H? 🌱</h2>
-<p>4-H is a youth program focused on leadership, hands-on learning, and community service.</p>
+    <section id="join" class="join-section">
+      <div class="container section-grid">
+        <div>
+          <h2 class="section-title">📝 How to Join Monmouth 4-H</h2>
+          <p>To join Monmouth 4-H as a Cloverbud, youth member, or adult volunteer, register through <a href="https://www.zsuite.org" target="_blank" rel="noopener">ZSuite</a>. Contact <a href="mailto:christine.raza@co.monmouth.nj.us">christine.raza@co.monmouth.nj.us</a> for help with enrollment.</p>
+        </div>
+        <div class="club-card signup-links">
+          <h3>📚 Sign Up Instructions</h3>
+          <ul>
+            <li><a href="https://shorturl.at/Qd7h7" target="_blank" rel="noopener">Sign up instructions for new members</a></li>
+            <li><a href="https://shorturl.at/JJKrK" target="_blank" rel="noopener">Sign up instructions for new volunteer leaders</a></li>
+            <li><a href="https://shorturl.at/MswYJ" target="_blank" rel="noopener">Reenrollment instructions</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-<ul>
-<li>✋ Hands-On Learning</li>
-<li>💪 Leadership Development</li>
-<li>🤝 Community Service</li>
-</ul>
-</section>
+    <section id="clubs" class="clubs">
+      <div class="container">
+        <h2 class="section-title">🌿 4-H Clubs</h2>
+        <div id="clubContainer" class="club-grid"></div>
+      </div>
+    </section>
 
-<section id="join" class="join-section">
-<h2>📝 How to Join Monmouth 4-H</h2>
-<p>To Join Monmouth 4-H as a Cloverbud, youth member or adult volunteer, please sign up on <a href="https://www.zsuite.org" target="_blank" rel="noopener">ZSuite</a>. Contact <a href="mailto:christine.raza@co.monmouth.nj.us">christine.raza@co.monmouth.nj.us</a> for any assistance you may need with enrolling.</p>
+    <section id="events" class="events-section">
+      <div class="container">
+        <h2 class="section-title">🎉 Upcoming Events</h2>
+        <div class="events-grid">
+          <div class="event-card">
+            <h3>Monmouth County Fair</h3>
+            <p class="event-date">July 23-27, 2025</p>
+            <p>Join us for the annual Monmouth County Fair featuring 4-H exhibits, competitions, and family-friendly activities.</p>
+          </div>
+          <div class="event-card">
+            <h3>Animal Shows & Clinics</h3>
+            <p class="event-date">Throughout the Year</p>
+            <ul>
+              <li>Livestock Expo (Spring)</li>
+              <li>Horse Shows 101 (Spring)</li>
+              <li>Model Horse Shows (Fall)</li>
+            </ul>
+            <p>Learn about animal care, compete in shows, and grow your skills with guided clinics.</p>
+          </div>
+          <div class="event-card">
+            <h3>Rutgers Day</h3>
+            <p class="event-date">April 2025</p>
+            <p>Celebrate Rutgers University and discover opportunities in agriculture, science, and community service.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div class="signup-links">
-<h3>📚 Sign Up Instructions</h3>
-<ul>
-<li><a href="https://shorturl.at/Qd7h7" target="_blank" rel="noopener">Sign up instructions for new members</a></li>
-<li><a href="https://shorturl.at/JJKrK" target="_blank" rel="noopener">Sign up instructions for new volunteer leaders</a></li>
-<li><a href="https://shorturl.at/MswYJ" target="_blank" rel="noopener">Reenrollment instructions</a></li>
-</ul>
-</div>
-</section>
+    <section id="contact" class="contact-section">
+      <div class="container contact-info">
+        <div class="contact-card">
+          <h3>Main Office</h3>
+          <p>Monmouth County 4-H Program</p>
+          <p>Agriculture Building<br>Freehold, NJ</p>
+          <p><strong>Email:</strong> <a href="mailto:christine.raza@co.monmouth.nj.us">christine.raza@co.monmouth.nj.us</a></p>
+          <p><strong>Phone:</strong> (732) 431-7460</p>
+        </div>
+        <div class="contact-card">
+          <h3>Get Involved</h3>
+          <p>Ready to join 4-H?</p>
+          <p>Contact our enrollment coordinator for help signing up on ZSuite or with questions about membership.</p>
+          <button class="primary" onclick="scrollToSection('join')">Join 4-H Today</button>
+        </div>
+      </div>
+    </section>
+  </main>
 
-<section id="clubs" class="clubs">
+  <footer>
+    <div class="container">
+      <p>© 2026 Monmouth County 4-H</p>
+    </div>
+  </footer>
 
-<h2>🌿 4-H Clubs 🌿</h2>
+  <button id="backToTop" onclick="scrollToTop()" aria-label="Back to Top">↑</button>
 
-<div id="clubContainer" class="club-grid"></div>
-
-</section>
-
-<section id="events" class="events-section">
-<h2>🎉 Upcoming Events 🎉</h2>
-<div class="events-grid">
-<div class="event-card">
-<h3>Monmouth County Fair</h3>
-<p class="event-date">July 23-27, 2025</p>
-<p>Join us for the annual Monmouth County Fair featuring 4-H exhibits, competitions, and fun for the whole family!</p>
-</div>
-<div class="event-card">
-<h3>Animal Shows & Clinics</h3>
-<p class="event-date">Throughout the Year</p>
-<ul>
-<li>Livestock Expo (Spring)</li>
-<li>Horse Shows 101 (Spring)</li>
-<li>Model Horse Shows (Fall)</li>
-</ul>
-<p>Learn about animal care, compete in shows, and develop your skills with our expert-led clinics.</p>
-</div>
-<div class="event-card">
-<h3>Rutgers Day</h3>
-<p class="event-date">April 2025</p>
-<p>Celebrate Rutgers University and learn about opportunities in agriculture, science, and community service.</p>
-</div>
-</div>
-</section>
-
-<section id="contact" class="contact-section">
-<h2>📞 Contact Us 📞</h2>
-<div class="contact-info">
-<div class="contact-card">
-<h3>Main Office</h3>
-<p>Monmouth County 4-H Program</p>
-<p>Agriculture Building<br>
-Freehold, NJ</p>
-<p><strong>Email:</strong> <a href="mailto:christine.raza@co.monmouth.nj.us">christine.raza@co.monmouth.nj.us</a></p>
-<p><strong>Phone:</strong> (732) 431-7460</p>
-</div>
-<div class="contact-card">
-<h3>Get Involved</h3>
-<p>Ready to join 4-H?</p>
-<p>Contact our enrollment coordinator for assistance with signing up on ZSuite or any questions about membership.</p>
-<button class="primary" onclick="scrollToSection('join')">Join 4-H Today</button>
-</div>
-</div>
-</section>
-
-<footer>
-<p>© 2026 Monmouth County 4-H</p>
-</footer>
-
-<!-- Back to Top Button -->
-<button id="backToTop" onclick="scrollToTop()" aria-label="Back to Top">↑ Top</button>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
